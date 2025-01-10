@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+        namespace "com.github.iamdjango.on_audio_query"
+
     compileSdkVersion 33
 
     sourceSets {
